@@ -17,7 +17,7 @@ public class LogoutController {
 
 	private static final Logger logger = LoggerFactory.getLogger(LogoutController.class);
 	
-	@RequestMapping(value = "/logout", method = RequestMethod.GET)
+	@RequestMapping(value = "logout", method = RequestMethod.GET)
 	public String logout(HttpServletRequest request,
 			HttpServletResponse response) {
 		
