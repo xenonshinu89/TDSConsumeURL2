@@ -24,7 +24,7 @@ public class ConsumeFooRESTServiceController  {
 	
 	private static final Logger logger = LoggerFactory.getLogger(ConsumeFooRESTServiceController.class);
 	
-	@GetMapping("/getFooDetails")
+	@GetMapping("getFooDetails")
 	public ModelAndView callRestService() throws JsonMappingException, JsonProcessingException {
 		
 		logger.info("Inside Consuming Foo REST service");

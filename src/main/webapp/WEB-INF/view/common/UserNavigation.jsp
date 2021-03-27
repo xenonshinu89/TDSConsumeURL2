@@ -8,7 +8,7 @@
 	<div class="container-fluid">
 		<ul class="nav navbar-nav">
 			<li class="active"><a href="/">Home</a></li>
-			<li><a href="/getFooDetails">Get Foo Details</a></li>
+			<li><a href="getFooDetails">Get Foo Details</a></li>
 			
 		</ul>
 		
